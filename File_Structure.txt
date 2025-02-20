@@ -1,0 +1,30 @@
+Signup_Signin_Form/
+├── manage.py
+├── db.sqlite3
+├── myproject/
+    ├── settings.py
+    ├── urls.py
+    ├── ___init__.py
+    ├── asgi.py
+│   └── wsgi.py
+└── accounts/
+    ├── __init__.py
+    ├── admin.py
+    ├── apps.py
+    ├── forms.py
+    ├── models.py
+    ├── tests.py
+    ├── urls.py
+    ├── views.py     
+    ├── templates/
+    │   └── accounts/
+    │         ├── signup.html
+    │         ├── login.html
+    │         ├── doctor_dashboard.html
+    │         └── patient_dashboard.html
+    └── static/
+        └── accounts/
+              ├── Styles_Signup.css
+              ├── Styles_login.css
+              ├── Styles_Doctor_Dashboard.css
+              └── Styles_Doctor_Patient.css
